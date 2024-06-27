@@ -2,14 +2,14 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 
-const MainLayout = () => {
+const MainLayout = ({ children }) => {
   return (
-    <main className="bg-white min-h-screen pl-4 lg:pl-14  pr-4">
+    <main className="bg-white min-h-screen pl-4 md:pl-14  pr-4">
       <Navbar />
       <div className="flex">
         <Sidebar />
-        <div className="flex-grow p-4 ml-[60px] mt-[35px] mr-[102px]">
-          {"ini anak"}
+        <div className="flex-grow p-4  mt-[35px] ml-4  md:ml-14">
+          {children}
         </div>
       </div>
     </main>

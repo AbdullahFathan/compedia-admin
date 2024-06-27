@@ -1,8 +1,8 @@
 const sidebarItem = [
-  { title: "Dashboard", path: "" },
-  { title: "Mentor", path: "" },
-  { title: "Lomba", path: "" },
-  { title: "Pemasukan", path: "" },
+  { title: "Dashboard", path: "/dahboard" },
+  { title: "Mentor", path: "/mentor" },
+  { title: "Lomba", path: "/lomba" },
+  { title: "Pemasukan", path: "/pemasukan" },
   { title: "Keluar", path: "" },
 ];
 

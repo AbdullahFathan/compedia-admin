@@ -18,7 +18,8 @@ const Sidebar = () => {
             <li key={index}>
               <NavLink
                 to={item.path}
-                className="flex items-center font-semibold py-2 px-2 text-gray-900 hover:text-white hover:bg-primary"
+                // onClick={() => useCurentItem(index)}
+                className={`flex items-center font-semibold py-2 px-2  hover:text-white hover:bg-primary bg-neutural-white text-textBlack`}
               >
                 <span className="flex-1  whitespace-nowrap">{item.title}</span>
               </NavLink>
