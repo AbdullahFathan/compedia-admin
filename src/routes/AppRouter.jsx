@@ -14,7 +14,6 @@ const AppRouter = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={<Login />} />
-        <Route exact path="/main" element={<MainLayout />} />
         <Route exact path="/dahboard" element={<Dashboard />} />
         <Route exact path="/mentor" element={<Mentor />} />
         <Route exact path="/mentor/:id" element={<DetailMentor />} />

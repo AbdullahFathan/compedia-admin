@@ -3,7 +3,7 @@ const sidebarItem = [
   { title: "Mentor", path: "/mentor" },
   { title: "Lomba", path: "/lomba" },
   { title: "Pemasukan", path: "/pemasukan" },
-  { title: "Keluar", path: "" },
+  { title: "Keluar", path: "/" },
 ];
 
 export default sidebarItem;

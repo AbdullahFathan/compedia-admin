@@ -7,7 +7,7 @@ const Login = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     console.log("ke submit");
-    navigate("/main");
+    navigate("/dahboard");
   };
   return (
     <div className="hero bg-white min-h-screen">
