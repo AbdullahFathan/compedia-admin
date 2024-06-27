@@ -55,3 +55,11 @@ export const lombaKelima = [
   { id: 4, name: "Olimpiade Kimia 2024" },
   { id: 5, name: "Hackathon Blockchain 2024" },
 ];
+
+export const pemasukanDummy = [
+  { id: 1, name: "Pemasukan - 22 Jun 2024 - Rp240.000 - Via Bank BRI" },
+  { id: 2, name: "Pemasukan - 18 Jun 2024 - Rp340.000 - Via Bank BNI" },
+  { id: 3, name: "Pemasukan - 10 Jun 2024 - Rp180.000 - Via Bank BRI" },
+  { id: 2, name: "Pemasukan - 07 Jun 2024 - Rp120.000 - Via Bank Gopay" },
+  { id: 2, name: "Pemasukan - 01 Jun 2024 - Rp100.000 - Via Bank BNI" },
+];
