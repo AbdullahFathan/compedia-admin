@@ -11,7 +11,7 @@ const Dashboard = () => {
         {dashBoardData.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col border border-border py-3 mt-6 md:mt-0 mr-0 md:mr-6 justify-center items-center rounded-lg "
+            className="flex flex-col border border-border py-3 px-3 mt-6 md:mt-0 mr-0 md:mr-6 justify-center items-center rounded-lg "
           >
             <h2 className={`text-2xl font-semibold  ${item.color}`}>
               {item.data}
