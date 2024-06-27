@@ -7,6 +7,7 @@ import Mentor from "../features/mentor/pages/Mentor";
 import Lomba from "../features/lomba/pages/Lomba";
 import Pemasukan from "../features/pemasukan/pages/Pemasukan";
 import DetailMentor from "../features/mentor/pages/DetailMentor";
+import DetailLomba from "../features/lomba/pages/DetailLomba";
 
 const AppRouter = () => {
   return (
@@ -18,6 +19,7 @@ const AppRouter = () => {
         <Route exact path="/mentor" element={<Mentor />} />
         <Route exact path="/mentor/:id" element={<DetailMentor />} />
         <Route exact path="/lomba" element={<Lomba />} />
+        <Route exact path="/lomba/:id" element={<DetailLomba />} />
         <Route exact path="/pemasukan" element={<Pemasukan />} />
       </Routes>
     </Router>

@@ -33,7 +33,7 @@ const LombaTab = () => {
               key={item.id}
               buttonTitle="Lihat Profile"
               onTap={() => {
-                navigate(`/mentor/${item.id}`);
+                navigate(`/lomba/${item.id}`);
               }}
               title={item.name}
             />
@@ -61,7 +61,7 @@ const LombaTab = () => {
               key={item.id}
               buttonTitle="Lihat Profile"
               onTap={() => {
-                navigate(`/mentor/${item.id}`);
+                navigate(`/lomba/${item.id}`);
               }}
               title={item.name}
             />
@@ -88,7 +88,7 @@ const LombaTab = () => {
               key={item.id}
               buttonTitle="Lihat Profile"
               onTap={() => {
-                navigate(`/mentor/${item.id}`);
+                navigate(`/lomba/${item.id}`);
               }}
               title={item.name}
             />
@@ -115,7 +115,7 @@ const LombaTab = () => {
               key={item.id}
               buttonTitle="Lihat Profile"
               onTap={() => {
-                navigate(`/mentor/${item.id}`);
+                navigate(`/lomba/${item.id}`);
               }}
               title={item.name}
             />
