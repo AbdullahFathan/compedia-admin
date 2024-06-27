@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import DataCard from "../../../components/DataCard";
 import { mentorAprove, mentorBelum } from "../../../constants/dummy";
+import { useNavigate } from "react-router-dom";
 
 const MentorTab = () => {
   const [activeTab, setActiveTab] = useState(1);
+  const navigate = useNavigate();
   return (
     <div role="tablist" className="tabs tabs-bordered ">
       <input
@@ -25,7 +27,9 @@ const MentorTab = () => {
             <DataCard
               key={item.id}
               buttonTitle="Lihat Profile"
-              onTap={() => {}}
+              onTap={() => {
+                navigate(`/mentor/${item.id}`);
+              }}
               title={item.name}
             />
           </div>
@@ -51,7 +55,9 @@ const MentorTab = () => {
             <DataCard
               key={item.id}
               buttonTitle="Lihat Profile"
-              onTap={() => {}}
+              onTap={() => {
+                navigate(`/mentor/${item.id}`);
+              }}
               title={item.name}
             />
           </div>

@@ -6,6 +6,7 @@ import Dashboard from "../features/dashboard/pages/Dashboard";
 import Mentor from "../features/mentor/pages/Mentor";
 import Lomba from "../features/lomba/pages/Lomba";
 import Pemasukan from "../features/pemasukan/pages/Pemasukan";
+import DetailMentor from "../features/mentor/pages/DetailMentor";
 
 const AppRouter = () => {
   return (
@@ -15,6 +16,7 @@ const AppRouter = () => {
         <Route exact path="/main" element={<MainLayout />} />
         <Route exact path="/dahboard" element={<Dashboard />} />
         <Route exact path="/mentor" element={<Mentor />} />
+        <Route exact path="/mentor/:id" element={<DetailMentor />} />
         <Route exact path="/lomba" element={<Lomba />} />
         <Route exact path="/pemasukan" element={<Pemasukan />} />
       </Routes>

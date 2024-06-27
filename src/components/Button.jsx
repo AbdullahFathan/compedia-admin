@@ -5,7 +5,7 @@ const PrimaryButton = ({ title, onTap, butonType, formId }) => {
     <button
       type={butonType ?? "button"}
       form={formId ?? undefined}
-      className="btn btn-active btn-primary bg-primary text-white text-center"
+      className="btn btn-active btn-primary bg-primary text-white text-center w-full"
       onClick={onTap}
     >
       {title}
