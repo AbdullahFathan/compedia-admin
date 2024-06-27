@@ -14,6 +14,7 @@ export default {
         green: "#0CD373",
         yellow: "#FFBC05",
         border: "#CBC4C6",
+        neuturalWhite: "#FCFCFC",
       },
       boxShadow: {
         "custom-shadow": "0px 1px 8px 0px #00000026",
