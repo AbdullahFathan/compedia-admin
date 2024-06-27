@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({ title, onTap, butonType, formId }) => {
+const PrimaryButton = ({ title, onTap, butonType, formId }) => {
   return (
     <button
       type={butonType ?? "button"}
@@ -13,4 +13,4 @@ const Button = ({ title, onTap, butonType, formId }) => {
   );
 };
 
-export default Button;
+export default PrimaryButton;
